@@ -8,11 +8,15 @@ This is VS Code Theme Extension featuring color from desert. This theme is built
 
 - Python
 
-- JS
+![python example](./img/python.png)
 
 - Vue
 
+![vue example](./img/vue.png)
+
 - PHP
+
+![php example](./img/php.png)
 
 ## Usage
 

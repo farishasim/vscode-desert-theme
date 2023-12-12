@@ -193,7 +193,17 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#c1cfc5"
+				"foreground": "#998f6c",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Comments: Special Doc",
+			"scope": [
+				"keyword.other.phpdoc",
+			],
+			"settings": {
+				"foreground": "#d75f5f",
 			}
 		},
 		{
@@ -382,7 +392,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#e8e8d3"
+				"foreground": "#c1cfc5"
 			}
 		},
 		{
