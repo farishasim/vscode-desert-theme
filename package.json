@@ -1,6 +1,6 @@
 {
   "name": "simu-desert",
-  "displayName": "Simu Desert",
+  "displayName": "Desert Wanderer",
   "description": "VS Code Theme for desert wanderer",
   "version": "0.0.1",
   "engines": {
@@ -15,6 +15,11 @@
         "label": "Desert Wanderer",
         "uiTheme": "vs-dark",
         "path": "./themes/Desert Wanderer-color-theme.json"
+      },
+      {
+        "label": "Desert Wanderer Template",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Desert Wanderer Template-color-theme.json"
       }
     ]
   }
