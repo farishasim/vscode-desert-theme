@@ -245,7 +245,7 @@
 				"support.type",
 			],
 			"settings": {
-				"foreground": "#fabb6e",
+				"foreground": "#dfb064",
 			}
 		},
 		{
@@ -365,7 +365,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#fabb6e",
+				"foreground": "#dfb064",
 				"fontStyle": "bold"
 			}
 		},
@@ -402,9 +402,17 @@
 		{
 			"name": "Tag",
 			"scope": [
-				"meta.tag",
 				"entity.name.tag",
 				"entity.name.tag.yaml",
+			],
+			"settings": {
+				"foreground": "#71abb7",
+			}
+		},
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"meta.tag"
 			],
 			"settings": {
 				"foreground": "#71abb7",
@@ -419,7 +427,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#fabb6e"
+				"foreground": "#dfb064"
 			}
 		},
 		{
@@ -440,7 +448,8 @@
 				"support.class.component.js"
 			],
 			"settings": {
-				"foreground": "#fabb6e",
+				// "foreground": "#fabb6e",
+				"foreground": "#dfb064"
 			}
 		},
 		{
@@ -480,7 +489,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#fabb6e"
+				"foreground": "#dfb064"
 			}
 		},
 		{
