@@ -25,7 +25,7 @@
 		"editor.findMatchBackground": "#dfb06433",
 		"editor.findMatchHighlightBackground": "#dfb06433",
 		"editor.findRangeHighlightBackground": "#dfb06433",
-		"editor.foreground": "#c1cfc5",
+		"editor.foreground": "#bbd0d3",
 		"editor.lineHighlightBackground": "#242B38",
 		"editor.rangeHighlightBackground": "#242B38",
 		"editor.selectionBackground": "#242B38",
@@ -223,9 +223,10 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
 				"storage",
 				"storage.type",
+				"keyword",
+				"keyword.control",
 				"keyword.operator.logical.python",
 				"keyword.operator.expression.in",
 				"keyword.operator.expression.of",
@@ -269,7 +270,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#c1cfc5"
+				"foreground": "#bbd0d3"
 			}
 		},
 		{
@@ -392,13 +393,6 @@
 			}
 		},
 		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#c1cfc5"
-			}
-		},
-		{
 			"name": "JSON key",
 			"scope": "support.type.property-name.json",
 			"settings": {
@@ -408,6 +402,7 @@
 		{
 			"name": "Tag",
 			"scope": [
+				"meta.tag",
 				"entity.name.tag",
 				"entity.name.tag.yaml",
 			],
@@ -430,7 +425,6 @@
 		{
 			"name": "HTML: Tags",
 			"scope": [
-				"meta.tag",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag.end",
@@ -502,7 +496,6 @@
 		{
 			"name": "CSS: Property Values",
 			"scope": [
-				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
 				"punctuation.definition.constant.css",
@@ -530,13 +523,6 @@
 			"scope": "keyword.other.important",
 			"settings": {
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "CSS: Property value",
-			"scope": "support.constant.property-value.css",
-			"settings": {
-				"foreground": "#998f6c"
 			}
 		},
 		{
