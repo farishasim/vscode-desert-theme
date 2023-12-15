@@ -252,12 +252,9 @@
 			"name": "Language Constants",
 			"scope": [
 				"constant.language",
-				"constant.other",
 				"constant.numeric",
 				"constant.character",
-				"variable.parameter.function.language.special.self.python",
 				"support.constant",
-				"variable.language"
 			],
 			"settings": {
 				"foreground": "#d75f5f"
@@ -267,10 +264,20 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"support.variable"
 			],
 			"settings": {
 				"foreground": "#bbd0d3"
+			}
+		},
+		{
+			"name": "Variable Language",
+			"scope": [
+				"variable.language",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#71abb7",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -280,6 +287,15 @@
 			],
 			"settings": {
 			  "foreground": "#dfb064"
+			}
+		},
+		{
+			"name": "Function Parameters",
+			"scope": [
+			  "variable.parameter.function",
+			],
+			"settings": {
+			  "foreground": "#71abb7"
 			}
 		},
 		{
@@ -302,9 +318,8 @@
 			}
 		},
 		{
-			"name": "Function parameters python",
+			"name": "Function-Call parameters python",
 			"scope": [
-				"variable.parameter.function.language.python",
 				// "meta.function-call.arguments.python",
 				"variable.parameter.function-call.python",
 			],
@@ -320,6 +335,7 @@
 			],
 			"settings": {
 				"foreground": "#d75f5f",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -330,6 +346,7 @@
 			],
 			"settings": {
 				"foreground": "#d75f5f",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -445,7 +462,8 @@
 			"name": "HTML: Tag Names",
 			"scope": [
 				"entity.name.tag.html",
-				"support.class.component.js"
+				"entity.name.tag.js",
+				"support.class.component.js",
 			],
 			"settings": {
 				// "foreground": "#fabb6e",
