@@ -1,8 +1,9 @@
 {
-  "name": "simu-desert",
+  "name": "desert-wanderer",
   "displayName": "Desert Wanderer",
   "description": "VS Code Theme for desert wanderer",
   "version": "0.0.1",
+  "publisher": "farishasim",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -22,5 +23,9 @@
         "path": "./themes/Desert Wanderer Template-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farishasim/vscode-desert-theme.git"
   }
 }
